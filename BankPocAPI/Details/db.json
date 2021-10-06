@@ -1,0 +1,177 @@
+{
+	"user": [{
+		"username": "JohnSmith",
+		"email": "johnSmith@gmail.com",
+		"password": "Password@123",
+		"usertype": "2"
+	}, {
+		"username": "JohnDoe",
+		"email": "johndeo@gmail.com",
+		"password": "Password@123",
+		"usertype": "1"
+	}],
+	"currency": [{
+		"currencyname": "US",
+		"currencycode": "USD"
+	}, {
+		"currencyname": "Euro",
+		"currencycode": "EUR"
+	}, {
+		"currencyname": "British",
+		"currencycode": "GBP"
+	}, {
+		"currencyname": "Indian",
+		"currencycode": "INR"
+	}, {
+		"currencyname": "Austrialian Dollar",
+		"currencycode": "AUD"
+	}, {
+		"currencyname": "Canadian Dollar",
+		"currencycode": "CAD"
+	}, {
+		"currencyname": "Singapore Dollar",
+		"currencycode": "SGD"
+	}, {
+		"currencyname": "Swiss Franc",
+		"currencycode": "CHF"
+	}, {
+		"currencyname": "Malaysian Ringgit",
+		"currencycode": "MYR"
+	}, {
+		"currencyname": "Japanese Yen",
+		"currencycode": "JPY"
+	}, {
+		"currencyname": "Chinese Yuan",
+		"currencycode": "CNY"
+	}, {
+		"currencyname": "United Arab Emirates Dirham",
+		"currencycode": "AED"
+	}, {
+		"currencyname": "Thailand Baht",
+		"currencycode": "THB"
+	}],
+	"fromaccounts": [{
+		"beneficiarycode": "ABs002",
+		"beneficiaryname": "Transact Corporation",
+		"accountname": "Saving",
+		"accountnumber": "SB00000001",
+		"accountccy": "IND",
+		"iban": "001 ",
+		"bankcountry": "India ",
+		"bankid": "01",
+		"bankidtype": "pqr",
+		"bankname": "SB1",
+		"branchname": "dmbivli",
+		"proxytype": "qwe",
+		"proxyid": "poc"
+	}, {
+		"beneficiarycode": "ABs002",
+		"beneficiaryname": "Raman Tech Ltd",
+		"accountname": "Saving",
+		"accountnumber": "SB00000002",
+		"accountccy": "IND",
+		"iban": "001 ",
+		"defaultaccount": "XYZ",
+		"bankcountry": "India ",
+		"bankid": "01",
+		"bankidtype": "pqr",
+		"bankname": "SB1",
+		"branchname": "dmbivli",
+		"proxytype": "qwe",
+		"proxyid": "poc"
+	}],
+	"CCY": [{
+		"curr": "THB",
+		"cntry": "Thai Baht"
+	}, {
+		"curr": "USD",
+		"cntry": "US Dollar"
+	}],
+	"bankID": ["BIC", "Local Clearing Code"],
+	"accountType": ["Savings", "Current", "Loan", "Collection"],
+	"country": ["US", "Europe", "UK", "India", "Australia", "Canada", "Singapore", "Swiss", "Malaysia", "Japan", "China", "United Arab Emirates", "Thailand"],
+	"proxytype": ["EMAIL", "NATIONALID", "TAXID", "BILLERID", "TOKEN", "MSISDN"],
+	"paymentreason": ["Salary", "Vendor Payment", "Bonus Payment", "Commission Payment", "Tax Payment", "Pension Payment", "Government Payment", "Others"],
+	"paymentmethods": ["BAHTNET", "SmartPay", "PromptPay"],
+	"toaccounts": [{
+		"beneficiarycode": "BFC001",
+		"beneficiaryname": "Intertek Corporation",
+		"accountname": "Current",
+		"accountnumber": "ICICI0001",
+		"accountccy": "USD-US Dollar",
+		"iban": "IBXYZ001",
+		"bankcountry": "US",
+		"bankid": "ICICB",
+		"bankidtype": "BIC",
+		"bankname": "ICICB Bank",
+		"branchname": "NY",
+		"proxytype": "P001",
+		"proxyid": "NATIONALID"
+	}],
+	"transactionlist": [{
+		"paymentTo": "ICICI0001",
+		"paymentToAccName": "Intertek Corporation",
+		"from": "SB00000001",
+		"paymentFromAccName": "Transact Corporation",
+		"amount": "50000.00 USD",
+		"sendOn": "05/10/2021 15:24:54",
+		"paymentInitBy": "JohnDoe",
+		"paymentInitTime": "05/10/2021",
+		"chargesPaidByUs": "100.00 USD",
+		"paymentReason": "Vendor Payment",
+		"paymentType": "SMARTPay",
+		"totaldebit": "50100.00 USD",
+		"userId": "JohnSmith",
+		"invoice": [{
+			"invoiceNumber": "2500",
+			"invoiceAmount": "25000.00",
+			"currency": "USD",
+			"invoiceDate": "03/10/2021",
+			"discountRate": "0.00",
+			"discountAmount": "0.00",
+			"taxAmount": "0.00",
+			"netPayable": "25000.00"
+		}, {
+			"invoiceNumber": "Inv 2",
+			"invoiceAmount": "25000.00",
+			"currency": "USD",
+			"invoiceDate": "06/10/2021",
+			"discountRate": "0.00",
+			"discountAmount": "0.00",
+			"taxAmount": "0.00",
+			"netPayable": "25000.00"
+		}],
+		"reference": "TH000315342",
+		"status": "Approved",
+		"receivedOn": "2021-10-05 09:56:56"
+	}, {
+		"paymentTo": "ICICI0001",
+		"paymentToAccName": "Intertek Corporation",
+		"from": "SB00000001",
+		"paymentFromAccName": "Transact Corporation",
+		"amount": "1000.00 USD",
+		"sendOn": "05/10/2021 17:12:39",
+		"paymentInitBy": "JohnDoe",
+		"paymentInitTime": "05/10/2021",
+		"chargesPaidByUs": "50.00 USD",
+		"paymentReason": "Pension Payment",
+		"paymentType": "PromtPay",
+		"totaldebit": "1050.00 USD",
+		"userId": "JohnSmith",
+		"invoice": [{
+			"invoiceNumber": "E9686",
+			"invoiceAmount": "1000.00",
+			"currency": "USD",
+			"invoiceDate": "30/09/2021",
+			"discountRate": "0.00",
+			"discountAmount": "0.00",
+			"taxAmount": "0.00",
+			"netPayable": "1000.00"
+		}],
+		"reference": "TH000944222",
+		"status": "Rejected",
+		"receivedOn": "2021-10-05 11:42:38",
+		"rejectReason": "Payment Declined By Card Issuers",
+		"addNotes": "Payment Declined"
+	}]
+}
